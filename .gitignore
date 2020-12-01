@@ -1,0 +1,6 @@
+env.sh
+.terraform/
+terraform.tfvars
+add_disk/disk*
+.dockerignore
+*kubeconfig*
