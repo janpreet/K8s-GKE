@@ -1,5 +1,7 @@
-cluster_name       = "k8s-playground"
-machine_type       = "n1-standard-1"
+username = {}
+password = {}
+cluster_name = "k8s-playground"
+machine_type = "n1-standard-1"
 initial_node_count = 1
 oauth_scopes = [
         "https://www.googleapis.com/auth/compute",
