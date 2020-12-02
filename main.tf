@@ -23,8 +23,8 @@ variable "username" {}
 variable "password" {}
 
 # GKE
-module "gke-cluster" {
-    source = "./gke-cluster"
+module "gkecluster" {
+    source = "./gkecluster"
     username = random_id.username.hex
     password = random_id.password.hex
     project = var.project
